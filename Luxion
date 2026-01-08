@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Servidor Luxion</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e2f;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #6f42c1;
+      text-shadow: 0 0 5px #a16eff;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    a.button {
+      background-color: #6f42c1;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #a16eff;
+      transition: background-color 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #5931a9;
+      box-shadow: 0 0 15px #8b5fc8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Servidor Luxion</h1>
+  <p>Junte-se à nossa comunidade agora mesmo!</p>
+  <a class="button" href="https://discord.gg/FCdu2Mqqq2" target="_blank" rel="noopener noreferrer">Entrar no Discord</a>
+</body>
+</html>
